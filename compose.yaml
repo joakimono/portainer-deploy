@@ -1,0 +1,6 @@
+---
+version: '3.4'
+services:
+  frontend:
+    image: gitlab.sintef.no:5050/joakim.haugen/smd-deploy/frontend
+    ports: ["43210:80"]
